@@ -6,7 +6,7 @@ client = OpenAI(
     # base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
     base_url="http://localhost:11434/v1"
 )
-# 定义 Few-Shot 示例数据（让模型学习什么是文本匹配任务） key-value
+# 定义 Few-Shot （让模型学习什么是文本匹配任务） key-value
 examples_data = {
     "是": [
         ("公司ABC发布了季度财报，显示盈利增长。", "财报披露，公司ABC利润上升。"),
